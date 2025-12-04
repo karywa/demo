@@ -19,10 +19,6 @@ test:
 	$(PYTHON) -m pytest -q
 
 # Run the tiny UI (Flask app).
-# Opens http://localhost:5000
+# Opens http://127.0.0.1:5000
 ui:
 	$(PYTHON) web_app.py
-
-# Optional: basic lint (if you add flake8 or ruff to requirements.txt)
-lint:
-	flake8 scheduler tests || true
