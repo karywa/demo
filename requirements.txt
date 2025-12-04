@@ -1,0 +1,5 @@
+# Core packages
+flask>=3.0.0
+
+# Testing
+pytest>=7.4.0
